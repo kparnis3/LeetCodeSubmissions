@@ -33,6 +33,7 @@ class Solution {
         Equal, Pointer Limit (1,2) (2,1) Equal, Pointer Limit +1
 
         */
+        
         maxI = nums1.length;
         maxJ = nums2.length;
         numS1 = Arrays.copyOf(nums1, nums1.length);
@@ -40,7 +41,7 @@ class Solution {
           
         cache = new int[maxI + 1][maxJ + 1];
         
-        //set cache to empthy
+        //set cache to empty
         for(int i=0; i<=maxI; i++){
             for(int j=0; j<=maxJ; j++){
                 cache[i][j] = -1;
@@ -58,15 +59,15 @@ class Solution {
             return 0;
         }
         
-        // Already Explored
+        // Case already explored
         if(cache[i][j] != -1){
             return cache[i][j];
         }
         
-        // If we match
+        // If we match add value and increment both pointers.
         if(numS1[i] == numS2[j]){
             cache[i][j] = 1 + DFS(i+1, j+1);
-        }else{
+        }else{ //If we don't match, take the max of subtrees.
             cache[i][j] = Math.max(DFS(i+1,j), DFS(i, j+1));
         }
         
