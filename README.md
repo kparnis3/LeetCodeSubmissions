@@ -10,10 +10,11 @@ The following is a list of topics each question falls under: <br />
 1313: Array <br />
 1389: Array, Simulation <br />
 1572: Array, Matrix <br />
+1583: Array, Simulation *Stable Marriage Problem* <br />
 1779: Array, Math, DP, Backtracking, Bit Manipulation, Bitmask <br />
 1822: Arrat, Math <br />
 1828: Array, Math, Geometry <br />
 2140: Array, DP <br />
 2215: Array, HashTable <br />
 2466: DP <br />
-2468: Math <br />
+2469: Math <br />
