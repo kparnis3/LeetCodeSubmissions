@@ -8,7 +8,9 @@ The following is a list of topics each question falls under: <br />
 1025: Math, DP, BrainTeaser, Game Theory <br />
 1035: Array, DP <br />
 1313: Array <br />
+1365: Array, HashTable, Sorting, Counting <br />
 1389: Array, Simulation <br />
+1480: Array, PrefixSum <br />
 1572: Array, Matrix <br />
 1583: Array, Simulation *Stable Marriage Problem* <br />
 1799: Array, Math, DP, Backtracking, Bit Manipulation, Bitmask <br />
