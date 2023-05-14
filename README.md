@@ -1,19 +1,19 @@
 # LeetCodeSubmissions
-Collection of LeetCode questions that have been solved.
-The following is a list of topics each question falls under:
+Collection of LeetCode questions that have been solved. <br />
+The following is a list of topics each question falls under: <br />
 
-0054: Array, Matrix, Simulation
-0059: Array, Matrix, Simulation
-0807: Array, Greedy, Matrix
-1025: Math, DP, BrainTeaser, Game Theory
-1035: Array, DP
-1313: Array
-1389: Array, Simulation
-1572: Array, Matrix
-1779: Array, Math, DP, Backtracking, Bit Manipulation, Bitmask
-1822: Arrat, Math
-1828: Array, Math, Geometry
-2140: Array, DP
-2215: Array, HashTable
-2466: DP
-2468: Math
+0054: Array, Matrix, Simulation <br />
+0059: Array, Matrix, Simulation <br />
+0807: Array, Greedy, Matrix <br />
+1025: Math, DP, BrainTeaser, Game Theory <br />
+1035: Array, DP <br />
+1313: Array <br />
+1389: Array, Simulation <br />
+1572: Array, Matrix <br />
+1779: Array, Math, DP, Backtracking, Bit Manipulation, Bitmask <br />
+1822: Arrat, Math <br />
+1828: Array, Math, Geometry <br />
+2140: Array, DP <br />
+2215: Array, HashTable <br />
+2466: DP <br />
+2468: Math <br />
