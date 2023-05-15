@@ -8,8 +8,46 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
+
 class Solution {
     public ListNode swapNodes(ListNode head, int k) {
+        // Optmised Solution
+        ListNode temp = head;
+        
+        // get kth val
+        while(k!=1 && temp!=null){
+            temp=temp.next;
+            k--;
+        }
+        
+        // no kth val
+        if(temp == null){
+            return head;
+        }
+        
+        ListNode tempS = temp;
+        ListNode temp2 = head;
+        
+        // Move to kth from beg and kth from end
+        while(temp.next != null){
+            temp = temp.next;
+            temp2 = temp2.next;
+        }
+        
+        //Swap values
+        int value = tempS.val;
+        tempS.val = temp2.val;
+        temp2.val = value;
+        
+        return head;
+    }
+/*
+class Solution {
+    public ListNode swapNodes(ListNode head, int k) {
+        /* un-optimised solution 
+           (Using an array to switch vals)
+        
         ListNode temp = head;
         List<Integer> values = new ArrayList();
         
@@ -36,8 +74,11 @@ class Solution {
             i++;
         }
         
-        
-        
+       
+         
         return head;
-    }
+    } */
+    
+
+
 }
