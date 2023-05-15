@@ -13,6 +13,7 @@ The following is a list of topics each question falls under: <br />
 1480: Array, PrefixSum <br />
 1572: Array, Matrix <br />
 1583: Array, Simulation *Stable Marriage Problem* <br />
+1721: Linked List, Two Pointers
 1799: Array, Math, DP, Backtracking, Bit Manipulation, Bitmask <br />
 1822: Arrat, Math <br />
 1828: Array, Math, Geometry <br />
