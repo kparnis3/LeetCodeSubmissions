@@ -19,8 +19,8 @@ class Solution {
     public int DFS(int i)
     {   
         //Base case
-        if  (i==maxN) return 1; // Total should be 1
-        if  (i>maxN) return 0; //Out of bounds 
+        if  (i==maxN) return 1; // Total should be equal to n
+        if  (i>maxN) return 0; // Out of bounds 
         
         //Case already explored
         if(cache.containsKey(i)) return cache.get(i);
