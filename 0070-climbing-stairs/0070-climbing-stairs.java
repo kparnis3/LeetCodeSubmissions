@@ -4,11 +4,11 @@ class Solution {
     private int maxN;
     
     public int climbStairs(int n) {
-     /*               0 n = 2
+     /*            +0 0 n = 2
                      / \ 
-                    1   2
+                 +0 1   2 +1
                    /
-                  1+1
+               +1 1+1 
                 
      */
         maxN = n;
@@ -29,7 +29,6 @@ class Solution {
         //Open left and right
         result = DFS(i+1) + DFS(i+2);
         cache.put(i, result);
-        
         
         return result;
         
