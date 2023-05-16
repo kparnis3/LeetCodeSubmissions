@@ -1,6 +1,14 @@
 class Solution {
     private Map<Integer, Integer> cache = new HashMap<>();
-    
+    /*
+                        4
+                       / \
+                     3    2 (Explored, +1)
+                   /   \
+                  2     2 (Explored, +1)
+                 / \    
+             +1 1   0 
+    */
     public int fib(int n) {
         return DFS(n); // Taking top-bottom approach 
     }
