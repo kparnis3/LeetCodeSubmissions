@@ -5,6 +5,7 @@ The following is a list of topics each question falls under: <br />
 0024: Linked List, Pointer Manipulation <br />
 0054: Array, Matrix, Simulation <br />
 0059: Array, Matrix, Simulation <br />
+0070: Math, DP, Memorisation <br />
 0807: Array, Greedy, Matrix <br />
 1025: Math, DP, BrainTeaser, Game Theory <br />
 1035: Array, DP <br />
