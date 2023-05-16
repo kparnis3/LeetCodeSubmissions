@@ -15,7 +15,6 @@ class Solution {
              
         cache = new int[cost.length];
         costS = Arrays.copyOf(cost, cost.length);
-        Arrays.fill(cache, -1);
         
         // Start from index 0 or 1
         return Math.min(DFS(0), DFS(1));
@@ -28,7 +27,7 @@ class Solution {
         if (i >= costS.length) return 0;
     
         //if branch has already been explored
-	    if (cache[i] != -1)
+	    if (cache[i] != 0)
         {
             return cache[i];
         }
