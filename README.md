@@ -22,6 +22,7 @@ The following is a list of topics each question falls under: <br />
 1799: Array, Math, DP, Backtracking, Bit Manipulation, Bitmask <br />
 1822: Array, Math <br />
 1828: Array, Math, Geometry <br />
+2130: LinkedList, Two Pointers, Reversing <br />
 2140: Array, DP <br />
 2215: Array, HashTable <br />
 2466: DP <br />
