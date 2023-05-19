@@ -8,14 +8,17 @@ The following is a list of topics each question falls under: <br />
 0070: Math, DP, Recursion, Memorisation <br />
 0198: Array, DP <br />
 0509: Math, DP, Recursion, Memorisation <br />
-0745: Array, DP <br />
+0746: Array, DP <br />
+0785: Graph, BFS  <br />
 0807: Array, Greedy, Matrix <br />
 1025: Math, DP, BrainTeaser, Game Theory <br />
 1035: Array, DP <br />
+1137: Math, DP, Memorisation  <br />
 1313: Array <br />
 1365: Array, HashTable, Sorting, Counting <br />
 1389: Array, Simulation <br />
 1480: Array, PrefixSum <br />
+1557: Graphs, Sets <br />
 1572: Array, Matrix <br />
 1583: Array, Simulation *Stable Marriage Problem* <br />
 1721: Linked List, Two Pointers <br />
