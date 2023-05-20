@@ -14,7 +14,15 @@ Note: The input is always valid. You may assume that evaluating the queries will
   Explanation: </br>
   Given: a / b = 2.0, b / c = 3.0
   queries are: a / c = ?, b / a = ?, a / e = ?, a / a = ?, x / x = ?</br>
-  return: [6.0, 0.5, -1.0, 1.0, -1.0 </br>
-  </p>
-  
+  return: [6.0, 0.5, -1.0, 1.0, -1.0] </br>
+ </p>
+ <p>
+  Example 2: </br>
+  Input: equations = [["a","b"],["b","c"],["bc","cd"]], values = [1.5,2.5,5.0], queries = [["a","c"],["c","b"],["bc","cd"],["cd","bc"]] </br>
+  Output: [3.75000,0.40000,5.00000,0.20000] </br>
+ </p>
+ <p>
+  Input: equations = [["a","b"]], values = [0.5], queries = [["a","b"],["b","a"],["a","c"],["x","y"]] </br>
+  Output: [0.50000,2.00000,-1.00000,-1.00000] </br>
+ </p>
 </div>
