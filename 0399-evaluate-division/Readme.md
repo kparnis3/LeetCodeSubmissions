@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/evaluate-division/">399. Evaluate Divisionr</a></h2><h3>Medium</h3><hr><div>
+<h2><a href="https://leetcode.com/problems/evaluate-division/">399. Evaluate Division</a></h2><h3>Medium</h3><hr><div>
 
   
 <p> You are given an array of variable pairs equations and an array of real numbers values, where equations[i] = [Ai, Bi] and values[i] represent the equation Ai / Bi = values[i]. Each Ai or Bi is a string that represents a single variable.
@@ -22,6 +22,7 @@ Note: The input is always valid. You may assume that evaluating the queries will
   Output: [3.75000,0.40000,5.00000,0.20000] </br>
  </p>
  <p>
+  Example 3: </br>
   Input: equations = [["a","b"]], values = [0.5], queries = [["a","b"],["b","a"],["a","c"],["x","y"]] </br>
   Output: [0.50000,2.00000,-1.00000,-1.00000] </br>
  </p>
