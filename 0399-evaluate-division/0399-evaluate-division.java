@@ -142,7 +142,7 @@ class Solution {
             graph.addEgde(b, a, 1 / values[i]);
         }
         
-        // graph.printGraph();
+        //graph.printGraph();
         
         double[] result = new double[queries.size()];
         int j = 0;
