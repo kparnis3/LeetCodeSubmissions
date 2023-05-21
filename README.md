@@ -12,6 +12,7 @@ The following is a list of topics each question falls under: <br />
 0746: Array, DP <br />
 0785: Graph, BFS  <br />
 0807: Array, Greedy, Matrix <br />
+0934: Array, Matrix, BFS, DFS <br />
 1025: Math, DP, BrainTeaser, Game Theory <br />
 1035: Array, DP <br />
 1137: Math, DP, Memorisation  <br />
