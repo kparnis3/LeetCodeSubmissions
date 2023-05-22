@@ -2,14 +2,13 @@ class Solution {
     public int[] topKFrequent(int[] nums, int k) {
         
         int[] result = new int[k];
-        Arrays.sort(nums);
         
         Map<Integer, Integer> map = new HashMap<>(); //Create map with freq
         for (int num : nums) {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
         
-        List<Integer> keys = map.entrySet().stream()
+        List<Integer> keys = map.entrySet().stream() //map by value into list
         .sorted(Map.Entry.<Integer, Integer>comparingByValue().reversed())
         .map(Map.Entry::getKey)
         .collect(Collectors.toList());
