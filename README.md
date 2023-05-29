@@ -23,6 +23,7 @@ The following is a list of topics each question falls under: <br />
 1557: Graphs, Sets <br />
 1572: Array, Matrix <br />
 1583: Array, Simulation *Stable Marriage Problem* <br />
+1603. Design, Simulation <br />
 1721: Linked List, Two Pointers <br />
 1799: Array, Math, DP, Backtracking, Bit Manipulation, Bitmask <br />
 1822: Array, Math <br />
