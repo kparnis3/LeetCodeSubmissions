@@ -9,6 +9,7 @@ The following is a list of topics each question falls under: <br />
 0198: Array, DP <br />
 0339: Array, Graph, Shortest Path, BFS <br />
 0509: Math, DP, Recursion, Memorisation <br />
+0705: Array, Hash Table, Linked List, Design, Hash Function <br />
 0746: Array, DP <br />
 0785: Graph, BFS  <br />
 0807: Array, Greedy, Matrix <br />
