@@ -3,18 +3,11 @@
 <p>Implement the <code>UndergroundSystem</code> class:</p>
 
 <ul>
-	<li><code>void checkIn(int id, string stationName, int t)</code>
-
-	<ul>
-		<li>A customer with a card ID equal to <code>id</code>, checks in at the station <code>stationName</code> at time <code>t</code>.</li>
-		<li>A customer can only be checked into one place at a time.</li>
-	</ul>
-	</li>
+	<li><code>void checkIn(int id, string stationName, int t)</code></li>
+	<li>A customer with a card ID equal to <code>id</code>, checks in at the station <code>stationName</code> at time <code>t</code>.</li>
+	<li>A customer can only be checked into one place at a time.</li>
 	<li><code>void checkOut(int id, string stationName, int t)</code></li>
-	<ul>
-		<li>A customer with a card ID equal to <code>id</code>, checks out from the station <code>stationName</code> at time <code>t</code>.</li>
-	</ul>
-	</li>
+	<li>A customer with a card ID equal to <code>id</code>, checks out from the station <code>stationName</code> at time <code>t</code>.</li>
 	<li><code>double getAverageTime(string startStation, string endStation)</code></li>
 	<ul>
 		<li>Returns the average time it takes to travel from <code>startStation</code> to <code>endStation</code>.</li>
