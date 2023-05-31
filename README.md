@@ -20,6 +20,7 @@ The following is a list of topics each question falls under: <br />
 1313: Array <br />
 1365: Array, HashTable, Sorting, Counting <br />
 1389: Array, Simulation <br />
+1396: HashTable, String, Design <br />
 1480: Array, PrefixSum <br />
 1557: Graphs, Sets <br />
 1572: Array, Matrix <br />
