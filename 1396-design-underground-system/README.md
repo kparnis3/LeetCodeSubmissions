@@ -3,7 +3,7 @@
 <p>Implement the <code>UndergroundSystem</code> class:</p>
 
 <ul>
-	<li><code>void checkIn(int id, string stationName, int t)</code>
+	<li><code>void checkIn(int id, string stationName, int t)</code></li>
 
 	<ul>
 		<li>A customer with a card ID equal to <code>id</code>, checks in at the station <code>stationName</code> at time <code>t</code>.</li>
