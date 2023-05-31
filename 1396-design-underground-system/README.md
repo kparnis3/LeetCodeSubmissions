@@ -10,12 +10,12 @@
 		<li>A customer can only be checked into one place at a time.</li>
 	</ul>
 	</li>
-	<li><code>void checkOut(int id, string stationName, int t)</code>
+	<li><code>void checkOut(int id, string stationName, int t)</code></li>
 	<ul>
 		<li>A customer with a card ID equal to <code>id</code>, checks out from the station <code>stationName</code> at time <code>t</code>.</li>
 	</ul>
 	</li>
-	<li><code>double getAverageTime(string startStation, string endStation)</code>
+	<li><code>double getAverageTime(string startStation, string endStation)</code></li>
 	<ul>
 		<li>Returns the average time it takes to travel from <code>startStation</code> to <code>endStation</code>.</li>
 		<li>The average time is computed from all the previous traveling times from <code>startStation</code> to <code>endStation</code> that happened <strong>directly</strong>, meaning a check in at <code>startStation</code> followed by a check out from <code>endStation</code>.</li>
