@@ -7,7 +7,7 @@ The following is a list of topics each question falls under: <br />
 0059: Array, Matrix, Simulation <br />
 0070: Math, DP, Recursion, Memorisation <br />
 0198: Array, DP <br />
-0339: Array, Graph, Shortest Path, BFS <br />
+0399: Array, Graph, Shortest Path, BFS <br />
 0509: Math, DP, Recursion, Memorisation <br />
 0705: Array, Hash Table, Linked List, Design, Hash Function <br />
 0746: Array, DP <br />
@@ -16,6 +16,7 @@ The following is a list of topics each question falls under: <br />
 0934: Array, Matrix, BFS, DFS <br />
 1025: Math, DP, BrainTeaser, Game Theory <br />
 1035: Array, DP <br />
+1091: Array, BFS, Matrix <br />
 1137: Math, DP, Memorisation  <br />
 1313: Array <br />
 1365: Array, HashTable, Sorting, Counting <br />
