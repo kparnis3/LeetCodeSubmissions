@@ -41,22 +41,22 @@ class Solution {
         
         size = grid.length;
         gridS = Arrays.copyOf(grid, grid.length);
-        Set<Pair> visited = new HashSet<>();
         
-        return BFS(0,0,visited);
+        return BFS(0,0);
     }
     
-    public int BFS(int row, int col, Set<Pair> visit){
+    public int BFS(int row, int col){
         
-        if (gridS[row][row]==1){
+        if (gridS[row][col]==1){ //if starting is 1
             return -1;
         }
         
-        if (size==1){
+        if (size==1){ //if the search is [[0]]
             return 1;
         }
         
         int shortestPath = 1;
+        Set<Pair> visit = new HashSet<>();
         Queue<Pair> queue = new LinkedList<>();
         
         queue.offer(new Pair(row,col));
