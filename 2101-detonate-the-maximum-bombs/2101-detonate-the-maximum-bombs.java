@@ -16,7 +16,6 @@ class Solution {
             adjacencylist = new HashMap<>();
         }
         
-
         public void addEgde(int source, int destination) {
             Edge edge = new Edge(source, destination);
             LinkedList<Edge> edges = adjacencylist.get(source);
@@ -31,16 +30,6 @@ class Solution {
         public void addNode(int newNode) {
             if (!adjacencylist.containsKey(newNode)) {
                 adjacencylist.put(newNode, new LinkedList<>());
-            }
-        }
-
-        public void printGraph() {
-            for (int vertex : adjacencylist.keySet()) {
-                LinkedList<Edge> list = adjacencylist.get(vertex);
-                for (Edge edge : list) {
-                        System.out.print(vertex + " -> " + edge.destination);
-                }
-                System.out.println();
             }
         }
         
