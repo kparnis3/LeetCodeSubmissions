@@ -16,7 +16,7 @@ class Solution {
             adjacencylist = new HashMap<>();
         }
         
-        public void addEgde(int source, int destination) {
+        public void addEdge(int source, int destination) {
             
             if (!adjacencylist.containsKey(source)) {
                 adjacencylist.put(source, new LinkedList<>());
@@ -61,7 +61,7 @@ class Solution {
                     continue;
                 final long ri = bombs[i][2];
                 if (ri * ri >= squaredDist(bombs, i, j)){
-                    graph.addEgde(i, j);
+                    graph.addEdge(i, j);
                 }
             }
         }
