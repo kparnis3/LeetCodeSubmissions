@@ -17,6 +17,11 @@ class Solution {
         }
         
         public void addEgde(int source, int destination) {
+            
+            if (!adjacencylist.containsKey(source)) {
+                adjacencylist.put(source, new LinkedList<>());
+            }
+            
             Edge edge = new Edge(source, destination);
             LinkedList<Edge> edges = adjacencylist.get(source);
             if (edges != null) {
@@ -24,12 +29,6 @@ class Solution {
             }
             else{
                 edges.add(edge);
-            }
-        }
-    
-        public void addNode(int newNode) {
-            if (!adjacencylist.containsKey(newNode)) {
-                adjacencylist.put(newNode, new LinkedList<>());
             }
         }
         
@@ -62,7 +61,6 @@ class Solution {
                     continue;
                 final long ri = bombs[i][2];
                 if (ri * ri >= squaredDist(bombs, i, j)){
-                    graph.addNode(i);
                     graph.addEgde(i, j);
                 }
             }
