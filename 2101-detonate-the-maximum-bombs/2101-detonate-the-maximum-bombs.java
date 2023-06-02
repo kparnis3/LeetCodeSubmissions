@@ -61,25 +61,20 @@ class Solution {
     public int maximumDetonation(int[][] bombs) {
         
         int result = 0;
+        int n = bombs.length;
         Graph graph = new Graph();
         
         //Create directed graph src -> dest
         //This points to which bombs can be deonated
-        
-        for(int i = 0; i<bombs.length; i++){
-            double r1 = bombs[i][2];
-                
-            for(int j = i+1; j<bombs.length; j++){               
-                double r2 = bombs[j][2];
-                
-                if(squaredDist(bombs, i, j) <= r1 * r1){
+              
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < n; ++j) {
+                if (i == j)
+                    continue;
+                final long ri = bombs[i][2];
+                if (ri * ri >= squaredDist(bombs, i, j)){
                     graph.addNode(i);
                     graph.addEgde(i, j);
-                }
-                
-                if( squaredDist(bombs, i, j) <= r2 * r2){
-                    graph.addNode(j);
-                    graph.addEgde(j, i);
                 }
             }
         }
