@@ -67,23 +67,17 @@ class Solution {
         //This points to which bombs can be deonated
         
         for(int i = 0; i<bombs.length; i++){
-            double x1 = bombs[i][0];
-            double y1 = bombs[i][1];
             double r1 = bombs[i][2];
                 
             for(int j = i+1; j<bombs.length; j++){               
-                double x2 = bombs[j][0];
-                double y2 = bombs[j][1];
                 double r2 = bombs[j][2];
                 
-                double distance = Math.sqrt((y2 - y1) * (y2 - y1) + (x2 - x1) * (x2 - x1));
-                
-                if(distance <= r1){
+                if(squaredDist(bombs, i, j) <= r1 * r1){
                     graph.addNode(i);
                     graph.addEgde(i, j);
                 }
                 
-                if(distance <= r2){
+                if( squaredDist(bombs, i, j) <= r2 * r2){
                     graph.addNode(j);
                     graph.addEgde(j, i);
                 }
@@ -116,4 +110,9 @@ class Solution {
 
         return visited.size(); //amount visited is maximum bombs that can be detonated
     }
+    
+    private long squaredDist(int[][] bombs, int i, int j) {
+        return (long) (bombs[i][0] - bombs[j][0]) * (bombs[i][0] - bombs[j][0]) +
+        (long) (bombs[i][1] - bombs[j][1]) * (bombs[i][1] - bombs[j][1]);
+    };
 }
