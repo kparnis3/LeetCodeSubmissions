@@ -19,6 +19,7 @@ The following is a list of topics each question falls under: <br />
 1035: Array, DP <br />
 1091: Array, BFS, Matrix <br />
 1137: Math, DP, Memorisation  <br />
+1232: Array, Math, Geometry <br />
 1313: Array <br />
 1365: Array, HashTable, Sorting, Counting <br />
 1389: Array, Simulation <br />
