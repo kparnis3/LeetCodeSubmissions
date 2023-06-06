@@ -25,6 +25,7 @@ The following is a list of topics each question falls under: <br />
 1389: Array, Simulation <br />
 1396: HashTable, String, Design <br />
 1480: Array, PrefixSum <br />
+1502: Array, Sorting <br />
 1557: Graphs, Sets <br />
 1572: Array, Matrix <br />
 1583: Array, Simulation *Stable Marriage Problem* <br />
