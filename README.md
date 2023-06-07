@@ -21,6 +21,7 @@ The following is a list of topics each question falls under: <br />
 1137: Math, DP, Memorisation  <br />
 1232: Array, Math, Geometry <br />
 1313: Array <br />
+1318: Bit Manipulation <br />
 1365: Array, HashTable, Sorting, Counting <br />
 1389: Array, Simulation <br />
 1396: HashTable, String, Design <br />
