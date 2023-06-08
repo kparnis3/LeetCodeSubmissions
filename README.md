@@ -1,6 +1,6 @@
 # LeetCodeSubmissions
-Collection of LeetCode questions that have been solved. <br />
-The following is a list of topics each question falls under: <br />
+## Collection of LeetCode questions that have been solved. <br />
+### The following is a list of topics each question falls under: <br />
 
 0024: Linked List, Pointer Manipulation <br />
 0054: Array, Matrix, Simulation <br />
