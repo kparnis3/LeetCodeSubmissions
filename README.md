@@ -11,6 +11,7 @@
 0399: Array, Graph, Shortest Path, BFS <br />
 0509: Math, DP, Recursion, Memorisation <br />
 0705: Array, Hash Table, Linked List, Design, Hash Function <br />
+0744: Array, Binray Search <br />
 0746: Array, DP <br />
 0785: Graph, BFS  <br />
 0807: Array, Greedy, Matrix <br />
@@ -34,6 +35,7 @@
 1603. Design, Simulation <br />
 1721: Linked List, Two Pointers <br />
 1799: Array, Math, DP, Backtracking, Bit Manipulation, Bitmask <br />
+1802: Binray Search, Greedy <br />
 1822: Array, Math <br />
 1828: Array, Math, Geometry <br />
 2101: Array, Math, DFS, Graph, Geometry <br />
