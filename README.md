@@ -21,6 +21,7 @@
 1035: Array, DP <br />
 1091: Array, BFS, Matrix <br />
 1137: Math, DP, Memorisation  <br />
+1161: Tree, BFS, Binary Tree <br />
 1146: Array, HashTable, Design, Binary Search <br />
 1232: Array, Math, Geometry <br />
 1313: Array <br />
