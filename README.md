@@ -11,6 +11,7 @@
 0228: Array <br />
 0399: Array, Graph, Shortest Path, BFS <br />
 0509: Math, DP, Recursion, Memorisation <br />
+0530: Tree, InOrder, Binary Tree <br />
 0705: Array, Hash Table, Linked List, Design, Hash Function <br />
 0744: Array, Binray Search <br />
 0746: Array, DP <br />
