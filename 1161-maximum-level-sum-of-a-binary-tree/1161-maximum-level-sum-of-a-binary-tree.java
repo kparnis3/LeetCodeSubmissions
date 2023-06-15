@@ -15,6 +15,8 @@
  */
 class Solution {
     public int maxLevelSum(TreeNode root) {
+        //Via BFS, Time: O(n)
+        
         int maxSum = Integer.MIN_VALUE;
         
         Queue<TreeNode> queue = new LinkedList<>();
@@ -32,7 +34,7 @@ class Solution {
                 TreeNode node = queue.poll();
                 sum += node.val;
                 
-                if(node.left!=null){
+                if(node.left!=null){ //Add left and right to be explored.
                     queue.offer(node.left);
                     
                 }
