@@ -24,7 +24,8 @@
 1137: Math, DP, Memorisation  <br />
 1161: Tree, BFS, Binary Tree <br />
 1146: Array, HashTable, Design, Binary Search <br />
-1232: Array, Math, Geometry <br />
+1187: Array, BinarySearch, DFS, DP, Sorting <br />
+1232: Array, Math, Geometry <br /> 
 1313: Array <br />
 1318: Bit Manipulation <br />
 1351: Array, Binary Searh, Matrix <br />
@@ -46,6 +47,7 @@
 2130: LinkedList, Two Pointers, Reversing <br />
 2140: Array, DP <br />
 2215: Array, HashTable <br />
+2352: Array, HashTable, Matrix, Simulation <br />
 2466: DP <br />
 2469: Math <br />
 2621: JavaScript. async <br />
