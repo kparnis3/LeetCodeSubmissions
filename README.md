@@ -12,6 +12,8 @@
 0399: Array, Graph, Shortest Path, BFS <br />
 0509: Math, DP, Recursion, Memorisation <br />
 0530: Tree, InOrder, Binary Tree <br />
+0584: Database <br />
+0595: Database <br />
 0705: Array, Hash Table, Linked List, Design, Hash Function <br />
 0744: Array, Binray Search <br />
 0746: Array, DP <br />
@@ -22,12 +24,14 @@
 1035: Array, DP <br />
 1091: Array, BFS, Matrix <br />
 1137: Math, DP, Memorisation  <br />
+1148: Database <br />
 1161: Tree, BFS, Binary Tree <br />
 1146: Array, HashTable, Design, Binary Search <br />
 1187: Array, BinarySearch, DFS, DP, Sorting <br />
 1232: Array, Math, Geometry <br /> 
 1313: Array <br />
 1318: Bit Manipulation <br />
+1376: Database <br />
 1351: Array, Binary Searh, Matrix <br />
 1365: Array, HashTable, Sorting, Counting <br />
 1389: Array, Simulation <br />
@@ -37,8 +41,10 @@
 1557: Graphs, Sets <br />
 1572: Array, Matrix <br />
 1583: Array, Simulation *Stable Marriage Problem* <br />
-1603. Design, Simulation <br />
+1603: Design, Simulation <br />
+1683: Database <br />
 1721: Linked List, Two Pointers <br />
+1757: Database <br />
 1799: Array, Math, DP, Backtracking, Bit Manipulation, Bitmask <br />
 1802: Binray Search, Greedy <br />
 1822: Array, Math <br />
