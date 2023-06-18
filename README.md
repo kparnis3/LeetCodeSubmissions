@@ -31,7 +31,7 @@
 1232: Array, Math, Geometry <br /> 
 1313: Array <br />
 1318: Bit Manipulation <br />
-1376: Database <br />
+1376: DFS, DP <br />
 1351: Array, Binary Searh, Matrix <br />
 1365: Array, HashTable, Sorting, Counting <br />
 1389: Array, Simulation <br />
