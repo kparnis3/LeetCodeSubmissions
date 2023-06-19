@@ -44,6 +44,7 @@
 1603: Design, Simulation <br />
 1683: Database <br />
 1721: Linked List, Two Pointers <br />
+1732: Array, Prefix Sum <br />
 1757: Database <br />
 1799: Array, Math, DP, Backtracking, Bit Manipulation, Bitmask <br />
 1802: Binray Search, Greedy <br />
