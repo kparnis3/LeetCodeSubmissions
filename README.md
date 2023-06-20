@@ -48,9 +48,10 @@
 1732: Array, Prefix Sum <br />
 1757: Database <br />
 1799: Array, Math, DP, Backtracking, Bit Manipulation, Bitmask <br />
-1802: Binray Search, Greedy <br />
+1802: Binary Search, Greedy <br />
 1822: Array, Math <br />
 1828: Array, Math, Geometry <br />
+2090: Array, Sliding Window <br />
 2101: Array, Math, DFS, Graph, Geometry <br />
 2130: LinkedList, Two Pointers, Reversing <br />
 2140: Array, DP <br />
