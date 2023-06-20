@@ -2,7 +2,7 @@ class Solution {
     public int[] getAverages(int[] nums, int k) {
         int n = nums.length;
         int [] result = new int[n];
-        Arrays.fill(result,-1); //start with result array all                              -1
+        Arrays.fill(result,-1); //tart with result array all -1
         int length = 2*k+1; //Left, Right and Middle
         
         if (length > n){
@@ -19,7 +19,7 @@ class Solution {
         
         int startPoint = 0;
         for(int lastPoint = length; lastPoint < n; lastPoint++)         {
-            sum = sum - nums[startPoint] + nums[lastPoint];
+            sum = sum - nums[startPoint] + nums[lastPoint]; //Subtract first element and add the last one
             startPoint++;
             result[lastPoint-k] = (int) (sum / length); //Compute rest
         }
