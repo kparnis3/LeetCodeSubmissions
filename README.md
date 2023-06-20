@@ -32,7 +32,7 @@
 1313: Array <br />
 1318: Bit Manipulation <br />
 1376: DFS, DP <br />
-1351: Array, Binary Searh, Matrix <br />
+1351: Array, Binary Search, Matrix <br />
 1365: Array, HashTable, Sorting, Counting <br />
 1389: Array, Simulation <br />
 1396: HashTable, String, Design <br />
